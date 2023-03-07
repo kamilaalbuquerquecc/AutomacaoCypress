@@ -7,6 +7,6 @@
   "author": "Kamila",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^12.7.0"
+    "cypress": "12.2.0"
   }
 }
