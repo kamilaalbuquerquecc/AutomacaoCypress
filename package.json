@@ -1,0 +1,9 @@
+{
+  "name": "automacao-cypress-mark",
+  "version": "1.0.0",
+  "description": "Projeto de testes ponta a ponta do Mark L",
+  "main": "index.js",
+  "repository": "https://github.com/kamilaalbuquerquecc/automacao-cypress-mark.git",
+  "author": "Kamila",
+  "license": "MIT"
+}
