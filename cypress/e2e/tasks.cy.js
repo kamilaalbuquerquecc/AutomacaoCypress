@@ -2,6 +2,15 @@
 
 describe('tarefas', () => {
 
+    let testData;
+
+    before(()=> {
+        cy.fixture('tasks').then(t => {
+            testData = t
+        })
+    })
+
+
     context('cadastro', () => {
         it('deve cadastrar uma nova tarefa', () => {
             const taskName = 'Ler um livro node.js'
@@ -60,8 +69,7 @@ describe('tarefas', () => {
 
     context('exclusão', () => {
         it('deve excluir uma tarefa', () => {
-            const task = {
-                name: "Estudar Javascript", is_done: false}
+            const task = testData.exc
 
             cy.removeTaskByName(task.name)
             cy.postTask(task)
