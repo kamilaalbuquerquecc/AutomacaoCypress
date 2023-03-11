@@ -1,34 +1,43 @@
-# automacao-cypress-mark
+# Automação do projeto Mark L com Cypress
 
-Requisitos
- Node 18
- Gerenciador de pacotes yarn hailitado 
+## Requisitos
+ - Node 18
+ - Gerenciador de pacotes yarn habilitado 
  
+**Baixar Projeto**
+```
 git clone https://github.com/kamilaalbuquerquecc/automacao-cypress-mark.git
+```
+**Acessar pasta raiz do projeto**
+```
+cd automacao-cypress-mark
+```
 
-Acessa pasta raiz do projeto
-Cria projeto node dentro da pasta
-$ yarn init
-
-
-1º Terminal (executa api): /apps/api
+**1º Terminal (executa api): /apps/api**
+```
  $ yarn install //primeira execução
  $ yarn dev
-
-2º Terminal (executa web): /apps/web
+```
+**2º Terminal (executa web): /apps/**
+```
  $ yarn install //primeira execução
  $ yarn dev
-
-Executar testes CLI
+```
+**Executar testes CLI**
+```
 $ yarn cypress run
-
+```
 ## Alure Reports
 
-Requisito
-Java 8+
+**Requisito**
+- Java 8+
 
-Ativa report por allure
+**Ativa report por allure**
+```
 $ yarn cypress run --env allure=true
-
-Abre interface Allure Report
+```
+**Abre interface Allure Report**
+```
 $ yarn allure serve 
+
+```
