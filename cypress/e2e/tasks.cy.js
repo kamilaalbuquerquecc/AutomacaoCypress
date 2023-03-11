@@ -83,6 +83,7 @@ describe('tarefas', () => {
 
             cy.contains('p', task.name)
                 .should('not.exist') 
+                
 
             
         })
